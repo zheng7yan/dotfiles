@@ -1,0 +1,2 @@
+complete -W "kh.sfrp.sf kh.test2699.sf kh.test2698.sf kh.compile.sf" ssh 
+complete -W "kh.sfrp.sf kh.test2699.sf kh.test2698.sf kh.compile.sf" scp
