@@ -1,0 +1,16 @@
+#!/bin/bash
+
+xsetroot -solid gray20
+
+# export GTK_IM_MODULE=ibus
+# export QT_IM_MODULE=ibus
+# export XMODIFIERS=@im=ibus
+# ibus-daemon -drx
+
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+/bin/fcitx -d
+
+exec i3 
+

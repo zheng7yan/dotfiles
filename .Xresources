@@ -1,0 +1,33 @@
+! --- Basic Dark Theme ---
+XTerm*background: black
+XTerm*foreground: white
+XTerm*cursorColor: cyan
+
+! 设置英文字体（核心字体）
+XTerm*faceName: DejaVu Sans Mono:style=Book
+XTerm*faceSize: 12
+
+! 设置中文字体（双倍宽度字体）
+XTerm*faceNameDoublesize: WenQuanYi Micro Hei
+
+! 解决字符间距可能过宽或重叠的问题（可选优化）
+XTerm*scaleHeight: 1.0
+
+! --- Optional: Solarized Dark Palette ---
+XTerm*color0:  #073642
+XTerm*color8:  #002b36
+XTerm*color1:  #dc322f
+XTerm*color9:  #cb4b16
+XTerm*color2:  #859900
+XTerm*color10: #586e75
+XTerm*color3:  #b58900
+XTerm*color11: #657b83
+XTerm*color4:  #268bd2
+XTerm*color12: #839496
+XTerm*color5:  #d33682
+XTerm*color13: #6c71c4
+XTerm*color6:  #2aa198
+XTerm*color14: #93a1a1
+XTerm*color7:  #eee8d5
+XTerm*color15: #fdf6e3
+
